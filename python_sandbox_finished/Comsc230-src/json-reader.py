@@ -47,11 +47,11 @@ input_json = """
 fileName= 'employees.json'
 
 #folderPath = '/Users/tnewman/Documents/GitHub/RWU/Comsc230/Examples/Python/DataFiles/'
-folderPath = '/Users/tomnewman/Documents/GitHub/RWU/RWU230-Projects/mongo-projects/Comsc230-python-sandbox/DataFiles'
+folderPath = '\Users\18607\OneDrive\Documents\Github\RWU\Comsc230\Assignments\A8 Assignment 8\Comsc230-python-sandbox\DataFiles'
 
-filePath = folderPath+'/'+fileName
 
-####  Open and read the raw data from the JSON file
+filePath = folderPath+''+fileName
+
         
 with open(filePath, 'r') as f:      # In python we use the 'with' instruction to ensure that resources 
       str1 = f.readlines()           # are opened and closed within the context in which they are used.
